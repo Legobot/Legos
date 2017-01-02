@@ -37,6 +37,6 @@ setup(
         'Programming Language :: Python :: 3'
     ],
 
-    packages=find_packages(exclude=['contrib','docs']),
+    packages=find_packages(exclude=['contrib', 'docs']),
 
 )
