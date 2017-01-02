@@ -21,6 +21,8 @@ setup(
 
     version='0.1.0',
 
+    namespace_packages=['legos'],
+
     license='GPLv3',
 
     py_modules=['legos'],
