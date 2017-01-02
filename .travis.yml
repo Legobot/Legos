@@ -1,3 +1,13 @@
 language: python
-python: 
-  - '3.5'
+python:
+- '3.5'
+deploy:
+  pypi:
+    username: briggsb
+    password:
+      secure: jtiD/50gx3d5TiM4CRRLGJ9utZ33q1LIAGNL7k22ZYZx2uilrf0/ZcbxjmVTdlWVgMKoqPd3QVcIPQVMJJrhwW66IMPa8Weu4eJtiu8tqIp2oOYCmuJqdPPHGc+6AqrDSkEN2dk4Mtc9kzkKb2+Nb9f1XILbXyccDN5XOHyPV3/A6lefcipAoP81tN/9KUWYENk/9vGZAyhvGZRwnmZ+UZPM76nihmJyGF1vI0S3IMhrvHBE4HCl/X9JvMQRWuglitUfXiIWA22CZwUrhHMoOZ4+dJod5UXxCQBglL5vI94f3j5vb72oDp5cn4i6tXn+O0Zv/w6nBEPiDhIOHbzvIqr04hyRlYYhO+44P9xQ+bwvQybnCErK+GtEq3l9hXFYmSafBpry/52NVYs4viIhHVBrzXig0KFBVjEoW0ZWbiXXCSNqz+pLxDf1F2/3fzYAaw1N3baV+PLbrs6uGgc95J6CDPb2HqIjgTzAi/XUWPwML6KZSxSYUemPGVbZDe+PsOpsEM2gB72hAcfQ75XBfwLxrjSSis7SCE7s1z8Lhke+bYgN8IFU3GKZ1X+KDbO1e3YSYkxPgAUAy1c4z4Xpqu59VSU2F8QAx7ID+kSvRapc83K815PbrEOZTrvtWGHWpIjaU1fdLcxYdLFqov2rpphnPyc7eOs478CDEL9nd1I=
+    on:
+      tags: true
+      distributions: "sdist bdist_wheel"
+      repo: bbriggs/Legos
+      branch: master
