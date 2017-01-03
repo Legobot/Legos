@@ -19,7 +19,7 @@ from setuptools import setup, find_packages
 setup(
     name='legos',
 
-    version='0.1.1dev2',
+    version='0.1.1.dev3',
 
     namespace_packages=['legos'],
 
